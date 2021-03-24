@@ -11,8 +11,15 @@
       text-align: center;
 }
 
-#title > h1 {
+.title-h1 {
       font-weight: 700;
+      font-size: 4.1rem;
+}
+
+@media (max-width: 460px) {
+      .title-h1 {
+            font-size: 2rem;
+      }
 }
 
 #img-div {
@@ -29,6 +36,13 @@
 
 #tribute-info > h2 {
       text-align: center;
+      font-size: 2rem;
+}
+
+@media (max-width: 460px) {
+      #tribute-info > h2 {
+            font-size: 1.15rem;
+      }
 }
 
 ul {
@@ -43,8 +57,9 @@ li {
 }
 
 blockquote {
+      text-align: center;
       font-style: italic;
-      max-width: 700px;
+      max-width: 1000px;
       margin: 0 auto 50px auto;
       text-align: left;
       line-height: 1.7;
@@ -57,5 +72,5 @@ footer {
 }
 
 #tribute-link {
-      color: #333333;
+      color: #ae77c4;
 }
